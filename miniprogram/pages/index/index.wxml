@@ -1,0 +1,10 @@
+<view>首页</view>
+<!-- /*
+dropDownMenuTitle:导航标题数组，按顺序填写
+dropDownMenuDistrictData:区域数组
+--- 以下三种样式一样，按需求添加即可 ---
+dropDownMenuSourceData:来源
+dropDownMenuStyleData:租售
+dropDownMenuFilterData:排序
+*/ -->
+<!-- <dropdownmenu dropDownMenuTitle='{{dropDowMenuTitle}}' dropDownMenuDistrictData='{{dropDownMenuFirstData}}' dropDownMenuSourceData='{{dropDownMenuSecondData}}' dropDownMenuStyleData='{{dropDownMenuThirdData}}' dropDownMenuFilterData='{{dropDownMenuFourthData}}' bind:selectedItem='selectedItem' /> -->

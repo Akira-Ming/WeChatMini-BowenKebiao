@@ -1,0 +1,64 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wxf63dfe4b7fefc300",
+	"projectname": "AkiraMing%E8%AF%BE%E8%A1%A8%E6%9F%A5%E8%AF%A2",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "下拉菜单测试",
+					"pathName": "pages/xialamenuT/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "headT",
+					"pathName": "pages/headTest/headTest",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<view style="margin-top: 100rpx; margin-bottom:50rpx; display: flex; justify-content:center; align-items:center;">
+    <image style="width:200rpx; height:200rpx; " src="/images/login.png" />
+</view>
+<form bindsubmit="_headerSubmit">
+    <view class="loginBody">
+        <view style="display:flex ">
+            <text>学号：</text>
+            <input class="account" name="account" placeholder="请输入学号" type="number" required minlength="4" maxlength="8" size="10"></input>
+        </view>
+        <view style="display:flex">
+            <text>密码：</text>
+            <input class="pwd" name="pwd" placeholder="请输入密码" type="text" required minlength="6" maxlength="16" size="10" password="{{true}}"></input>
+        </view>
+        <button form-type="submit" class="btn" type="primary" plain="{{true}} ">登录</button>
+    </view>
+</form>

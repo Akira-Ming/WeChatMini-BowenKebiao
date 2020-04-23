@@ -1,0 +1,27 @@
+<view class="list-head">
+    <view class="list-xueqi">
+        <text style="font-size:30rpx">2019-2020-2</text>
+    </view>
+    <view class="list-zhouci">
+        <!-- <text>第一周</text> -->
+        <!-- 下拉框 -->
+        <view class='list-msg2' bindtap='bindShowMsg'>
+            <text style="font-size:30rpx">{{tihuoWay}}</text>
+            <!-- <image style='height:20rpx;width:20rpx;' src='/images/down.png'></image> -->
+        </view>
+        <!-- 下拉需要显示的列表 -->
+        <scroll-view scroll-y="{{true}}" class="select_box" wx:if="{{select}}">
+            <!-- data-neme 是下拉选择后显示得文字 -->
+            <view class="select_one" id="" bindtap="mySelect" data-name="全部">全部</view>
+            <block wx:for="{{zc}}" wx:key="*this">
+                <view class="select_one" id="{{index+1}}" bindtap="mySelect" data-name="{{item}}">
+                    {{item}}
+                </view>
+            </block>
+        </scroll-view>
+    </view>
+</view>
+<!-- 课表组件页 -->
+<view class="kebiaoye" bindtap='clooseZc'>
+    <kebiaoyecom kcxxArrM="{{kcxxArr}}"></kebiaoyecom>
+</view>

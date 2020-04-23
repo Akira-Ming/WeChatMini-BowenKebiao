@@ -1,0 +1,63 @@
+/* .accunt {
+  margin: auto;
+  width: 50%;
+  background-color: #7daf85;
+  color: #fff;
+} */
+.loginBody {
+  /*设置显示样式**/
+  display: flex;
+  /* *子view垂直居中 */
+  align-items: center;
+  /*垂直居中 */
+  vertical-align: center;
+  /* 内容居中 */
+  justify-content: center;
+  /* 子view排列方式row--水平 column--垂直 */
+  flex-direction: column;
+}
+text {
+  color: #4e4e4e;
+  width: 30%;
+  font-size: 14pt;
+  /*设置显示样式**/
+  display: flex;
+  /* 子view垂直居中 center 
+  flex-end 底部
+  */
+  align-items: flex-end;
+  /*垂直居中 */
+  vertical-align: center;
+  /* 内容居中 */
+  justify-content: center;
+  /* 子view排列方式row--水平 column--垂直 */
+  /* flex-direction: column; */
+}
+input {
+  /* min-height: 2rem; */
+  width: 75%;
+  margin-top: 30rpx;
+  color: #000;
+  /* border: #7daf85 solid 1px; */
+}
+.btn {
+  /* width: 50%; */
+  margin-top: 50rpx;
+  /* background-color: burlywood; */
+  /* color: white; */
+  border-radius: 15rpx;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+}
+button[type="primary"][class="btn"][plain] {
+  color: #4e4e4e;
+  border-color: #4e4e4e;
+  width: 25%;
+}
+button[type="primary"][class="btn button-hover"][plain] {
+  color: #4e4e4e;
+  border-color: #4e4e4e;
+  width: 25%;
+}

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/headTest/headTest",
+    "pages/loginPage/loginPage"
+  ],
+  "window": {
+    "backgroundColor": "#d2e6b3",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d2e6b3",
+    "navigationBarTitleText": "AkiraMing课表查询",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

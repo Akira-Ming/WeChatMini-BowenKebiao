@@ -1,0 +1,74 @@
+/* pages/subject/subject.wxss */
+.top {
+  /* 伸缩盒子 */
+  display: flex;
+  /* 伸缩方向direction */
+  flex-direction: row;
+  /* 外边距-左 */
+  margin-left: 35rpx;
+  /* 背景颜色 */
+  background-color: #d2e6b3;
+  /* 文字颜色 */
+  color: #7cba23;
+}
+.top-text {
+  width: 100rpx;
+  height: 35rpx;
+  font-size: 9pt;
+  /* 
+  justify （两端）对齐 content 内容 
+  将伸缩项目与伸缩容器当前行的 "主轴对齐"。
+  水平居中
+  */
+  justify-content: center;
+  /* display显示（方式） flex 收缩、伸缩*/
+  display: flex;
+  /*
+  align 排成一行
+  items 项目
+  沿着伸缩容器当前行的 "横轴对齐 "伸缩项。 
+  垂直居中 
+  */
+  align-items: center;
+}
+.left {
+  width: 35rpx;
+  height: 100rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.flex-item {
+  width: 95rpx;
+  height: 100px;
+}
+
+.kcb-item {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: #7cba23 solid 2rpx;
+}
+
+.smalltext {
+  font-size: 10pt;
+  color: rgb(0, 0, 0);
+  padding-left: 2px;
+}
+
+.boxbox {
+  /* 随便定个高度使scroll生效 */
+  height: 100px;
+  /* 拉伸 */
+  flex: 1;
+}
+
+.scroll {
+  /* 有了上面的boxbox，这里才能100% */
+  height: 100%;
+  /* z-index: 101; */
+  position: fixed;
+}

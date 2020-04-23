@@ -1,0 +1,175 @@
+.list-head {
+  background-color: #79ba27;
+  width: 50%;
+  height: 60rpx;
+  border-radius: 60rpx;
+  margin: auto;
+  margin-top: 20rpx;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 4rpx solid #79ba27;
+}
+
+.list-xueqi {
+  background-color: white;
+  width: 50%;
+  /* height: 100%; */
+  border-radius: 40rpx 0 0 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* line-height: 60rpx; */
+  color: #79ba27;
+}
+
+.list-zhouci {
+  width: 50%;
+  border-radius: 0 40rpx 40rpx 0;
+  background-color: #79ba27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.kebiaoye {
+  margin-top: 20rpx;
+}
+/* ----------------------------- */
+
+.list-msg {
+  border-radius: 30px 0px 0px 30px;
+  float: left;
+  width: 50%;
+  /* padding: 0 20rpx; */
+  /* left: 1%; */
+  /* right: 10rpx; */
+  background-color: #fff;
+  /* 
+  CSS position属性用于指定一个元素在文档中的定位方式。
+  */
+  position: relative;
+  /* position 定位,位置  relative 相对定位/相对位置 */
+  /* display: inline; */
+}
+
+.list-msg1 {
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-msg .list-msg2 {
+  /* height: 60rpx; */
+  /* display 为显示CSS属性设置是否将元素视为块或内联元素以及用于其子元素
+    的布局，例如grid或flex。
+  官方：与“float”和“position”组合，确定为元素生成的一个或多个框的类型。
+  */
+  display: flex;
+  /* 
+  align-items属性将所有直接子节点上的align-self值设置为一个组。 
+    align-self属性设置项目在其包含块中在交叉轴方向上的对齐方式。
+  center
+    元素在侧轴居中。如果元素在侧轴上的高度高于其容器，那么在两个方向
+    上溢出距离相同。
+  */
+  align-items: center;
+  /* 
+  justify-content 属性定义了浏览器如何分配顺着父容器主轴的弹性元素之
+    间及其周围的空间。
+  justify-content: space-between;  均匀排列每个元素"首个"元素放置于起点，
+    "末尾"元素放置于终点
+  */
+  justify-content: space-between;
+  /* 
+  border 设置边框宽度、样式和颜色的简写属性。
+  border:边框
+  solid: 实线
+  */
+  /* border: 1px solid #ccc; */
+  /* 
+  padding属性设置一个元素的内边距，padding 区域指一个元素的内容和其边
+  界之间的空间，该属性不能为负值。 
+  */
+  /* padding: 0 10rpx; */
+}
+
+.select_box {
+  border: 2rpx solid #ccc;
+  background-color: #eee;
+  padding: 0 10rpx;
+  width: 20%;
+  color: black;
+  height: 600rpx;
+  border-radius: 15rpx;
+  /* font-size: 10pt; */
+  /* display: contents; */
+  /* justify-content: center;
+  align-items: center; */
+  /* 
+  absolute
+    不为元素预留空间，通过指定元素相对于最近的非 static 定位祖先元素的偏移，
+    来确定元素位置。绝对定位的元素可以设置外边距（margins），且不会与其他边
+    距合并。
+  */
+  position: absolute;
+  /* 
+  top样式属性定义了定位元素的上外边距边界与其包含块上边界之间的偏移，非定
+    位元素设置此属性无效。
+  top的效果取决于元素的position属性：
+    当position设置为absolute或fixed时，top属性指定了定位元素上外边距边界与其
+    包含块上边界之间的偏移。
+  */
+  top: 90rpx;
+
+  /* 
+  z-index 属性指定了一个具有定位属性的元素及其子代元素的 z-order。
+    当元素之间重叠的时候，z-order 决定哪一个元素覆盖在其余元素的上方显
+    示。 通常来说 z-index 较大的元素会覆盖较小的一个。
+    对于一个已经定位的元素（即position属性值不是static的元素），z-index 
+  属性指定：
+    元素在当前堆叠上下文中的堆叠层级。
+    元素是否创建一个新的本地堆叠上下文。
+
+  对于定位的盒子，“z-index”属性指定当前堆叠上下文中盒子的堆叠级别，
+    以及盒子是否建立了一个本地堆叠上下文。
+  */
+  z-index: 101;
+  /* 
+  overflow 定义当一个元素的内容太大而无法适应 块级格式化上下文 
+    时候该做什么。
+  hidden 内容会被修剪，并且其余内容不可见 
+  overflow: auto;由浏览器定夺，如果内容被修剪，就会显示滚动条 
+  */
+  overflow: hidden;
+  /* 
+  速记属性将六个动画属性组合成一个属性。
+  */
+  animation: myfirst 0.2s;
+}
+/* 
+@keyframes 规则通过在动画序列中定义关键帧（或waypoints）的样式
+  来控制CSS动画序列中的中间步骤。这比转换更能控制动画序列的中间步骤。
+*/
+@keyframes myfirst {
+  from {
+    height: 0rpx;
+  }
+
+  to {
+    height: 600rpx;
+  }
+}
+
+.select_one {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-bottom: 2rpx solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+}
